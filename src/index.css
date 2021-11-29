@@ -9,6 +9,8 @@ body {
   color: #ffffff;
 }
 
+/* Navigation Start */
+
 .nav-container {
   background: #fff;
   color: #3e68d3;
@@ -27,6 +29,24 @@ body {
   font-size: 1.25rem;
 }
 
+/* Navigation End */
+
+/* Single Blog Entry Start */
+
+.single-blog-container {
+  background: #fff;
+  color: #3e68d3;
+  border: 1px solid black;
+  margin: 1rem auto 0 auto;
+  padding: 1rem;
+  width: 90%;
+  max-height: 75vh;
+}
+
+/* Single Blog Entry End */
+
+/* Footer Start */
+
 .footer-container {
   position: absolute;
   bottom: 0;
@@ -36,3 +56,5 @@ body {
   background: #fff;
   color: #3e68d3;
 }
+
+/* Footer End */
