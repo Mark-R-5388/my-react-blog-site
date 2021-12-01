@@ -1,18 +1,18 @@
+import React from "react";
 import "../src/index.css";
-import NavBar from "./Components/NavBar";
-import Footer from "./Components/Footer";
-import BlogPost from "./Components/BlogPost";
+import { Routes, Route } from "react-router-dom";
+// import NavBar from "./Components/NavBar";
+import HomePage from "../src/Pages/HomePage";
+import ProgrammingBlogs from "../src/Pages/ProgrammingBlogs";
 
 function App() {
   return (
     <div>
-      <NavBar />
-      <BlogPost />
-
-      {/* <BlogIndex /> */}
-      <Footer />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="Programmingblogs" element={<ProgrammingBlogs />} />
+      </Routes>
     </div>
   );
 }
-
 export default App;

@@ -1,6 +1,6 @@
 body {
   position: relative;
-  height: 100vh;
+  min-height: 100vh;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -44,17 +44,3 @@ body {
 }
 
 /* Single Blog Entry End */
-
-/* Footer Start */
-
-.footer-container {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  text-align: center;
-  background: #fff;
-  color: #3e68d3;
-}
-
-/* Footer End */

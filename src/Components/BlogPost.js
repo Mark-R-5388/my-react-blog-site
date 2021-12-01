@@ -1,6 +1,6 @@
 import "../index.css";
 
-function BlogPost() {
+function BlogPost(props) {
   return (
     <main className="single-blog-container">
       <h1 className="single-blog-title">My First Blog Post</h1>
